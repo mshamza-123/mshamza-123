@@ -1,0 +1,92 @@
+/* Include CSS reset at the start. */
+/* To remove browser styles. */
+/* There are other styles too. */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Make body min-height to viewport. */
+/* Use flex to center. */
+/* DO NOT use large marginson container body. */
+body{
+    /* display: flex;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%); */
+
+    /* Centering on-screen. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    padding: 1rem; /* Stops content from hitting screen edges. */
+    line-height: 1.4;
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+/* LET CONTENT DETERMINE THE HEIGHT! */
+/* Use max-width, not width so it can shrink on small screens if needed. */
+.container{
+    /* background-color: hsl(0, 0%, 100%);
+    width: 16rem;
+    height: 25rem;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 7rem; */
+
+    
+
+    padding: 1rem;
+    border-radius: 20px;
+
+    max-width: 16rem;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container img{
+    /* width: 16rem;
+    height: 16rem;
+    border-radius: 20px; */
+
+    border-radius: 10px;
+
+    /* Basic resets for all (img) tags */
+    display: block;
+    max-width: 100%;
+    
+
+}
+
+/* Only display flex what needs it. */
+/* .container h2,  .container p, .container img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+
+/* Font-size should always be in rem. */
+.container p{
+    /* font-size: 20px; */
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+
+    margin-top: 1rem;
+}
+
+.container h2{
+    /* font-size: 20px; */
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+    line-height: 1.25;
+    margin-top: 1.3rem;
+    color: hsl(218, 44%, 22%);
+}
