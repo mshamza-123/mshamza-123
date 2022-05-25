@@ -1,0 +1,65 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(#5da4d9, #fff);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container h1{
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#inputField{
+    display: block;
+    margin: 15px auto;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.green{
+    padding: 10px 0px;
+}
+
+.green button{
+    background: green;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.green button:hover{
+    cursor: pointer;
+    background-color: rgb(12, 244, 12);
+}
+
+.red{
+    padding: 10px;
+}
+
+.red button{
+    background: red;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.red button:hover{
+    cursor: pointer;
+    background-color: rgb(128, 5, 5);
+}
+
